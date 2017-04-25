@@ -7,8 +7,8 @@ while guessed==False:
     if userNumber==randomNumber:
         guessed = True
         print("Excellent, Well done!")
-    elif userNumber>randomNumber:
+    elif userNumber > randomNumber:
         print("Try one more time, a bit lower")
     elif userNumber < randomNumber:
         print("Try one more time, a bit higher")
-print("Yes, you can!")
+print("Yes, " + str(randomNumber) + " is correct!")
