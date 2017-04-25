@@ -3,6 +3,7 @@ This project is the practical part of the second part of the *Cloud Computing* c
 
 
 ## Group members
-Hao Wu hao.wu@est.fib.upc.edu 
+Hao Wu hao.wu@est.fib.upc.edu
+ 
 Jakob Gerstenlauer jakob.gerstenlauer@est.fib.upc.edu
 
