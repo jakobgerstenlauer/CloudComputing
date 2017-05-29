@@ -78,9 +78,9 @@ for i in range(maxIter):
         train_accuracy = sess.run(accuracy, feed_dict={x: batch_xs, y_: batch_ys, keep_prob: 1.0})
         #print("Step %d - Train accuracy %.3f" % (i, train_accuracy))
 	df.set_value(i/10, 'iteration', i)
-	df.set_value(i/10, 'accuracy_train', train_accuracy)
+	df.set_value(i/10, 'accuracy_train', 100 * train_accuracy)
 	test_accuracy = sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
-	df.set_value(i/10, 'accuracy_test', test_accuracy)
+	df.set_value(i/10, 'accuracy_test', 100 * test_accuracy)
 	#print("Step %d - Test accuracy %.3f" % (i,test_accuracy))
 
 df.to_csv('Accuracy_tf5.csv', sep='\t')
