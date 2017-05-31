@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.1224883, 
+                    41.38065531
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#fcbhospitality #fcb #picoftheday @ Camp Nou Stadium, Barcelona https://t.co/aBKXQRlGdL", 
+                "created_at": "Wed May 31 17:58:47 +0000 2017"
+            }
+        }
+    ]
+}
